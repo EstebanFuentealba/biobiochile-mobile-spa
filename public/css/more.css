@@ -1,0 +1,155 @@
+.portada header h1{
+	color: #333 !important;
+}
+.endesarrollo{
+	display: block;
+	background-color: #f8b700;
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 3px 10px;
+}
+.pic{
+	background-color: #D8D8D8;
+}
+.escritorio{
+	font-size: 11px;
+	display: block;
+	text-align: center;
+	padding: 6px 0;
+	background-color: #000;	
+	height: 36px;
+}
+.escritorio .tipo_escritorio{
+	float: right;
+	margin-right: 10px;
+}
+.escritorio .en_logo{
+	display: block;
+    float: left;
+    width: 130px;
+    height: 25px;
+    display: block;
+    background-image: url(../img/en-bbcl-blanco.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.title-portada,
+.title-portada{
+	color: #333 !important;
+}
+#data-content{
+	min-height: 700px;
+}
+.menu-mas-leido.active{
+	background-color: #213161;
+}
+.menu-mas-leido.active a{
+	color: #fff;
+}
+.new-content-nota iframe{
+	width: 100% !important;
+}
+iframe.vrudo{
+	width: 100%;
+	height: 193px;
+	border: none;
+}
+.super .post-chico li a{
+	color: #333;
+}
+.content-site-news.home .super{
+	background-color: rgb(252, 113, 2) !important;
+	border-top: 3px solid  rgb(189, 58, 0) !important;
+}
+.content-site-news.home .super h1,
+.content-site-news.home .super .post-chico a{
+	color: #fff !important;
+}
+.content-site-news.home .super .post-chico .time{
+	color: white;
+	background: rgb(189, 58, 0) !important;
+	padding: 2px 4px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+.content-site-news.home .gran-titular .pic{
+	height: 200px !important;
+}
+@media only screen 
+and (orientation : landscape) {
+	.content-site-news.home .post-chico .pic{
+		height: 120px;
+	}
+	.content-site-news.home .destacados .post .pic,
+	.content-site-news.home .gran-titular .pic,
+	.content-site-news .post-new .pic.pic-nota{
+		height: 220px;
+	}
+	.content-site-news .post-new .tendencias .content-post-tendencia .post-tendencia .pic{
+		height: 120px;
+	}
+}
+.adlp{
+	background-color: #fafbfc;
+	margin-top: 5px !important;
+}
+.destacados.adlp header{
+	background-color: #FFF;
+	border-color: RGB(231, 0, 0) !important;
+	border-top: 3px solid !important;
+}
+.adlp header{
+    background-color: RGB(231, 0, 0);
+	text-transform: uppercase;
+	color: #FFF !important;
+	text-align: left;
+	padding-left: 20px;
+	border-bottom: 4px solid RGB(231, 0, 0);
+	margin-bottom: 10px;
+	
+    position: relative;
+    overflow: hidden;
+    border: 0 !important;
+    min-height: 30px;
+    line-height: 30px;
+
+}
+
+.adlp header > div{
+	
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #c20000;
+    padding: 0 10px;
+
+}
+.adlp header > div > a{
+	color: #FFF;
+}
+.adlp > a {
+	padding: 0 10px;
+}
+.content-site-news.home .ultimo-minuto h1{
+	font-size: 14px !important;
+}
+.content-site-news.home .gran-titular h1{
+	font-size: 1.4rem !important;
+	line-height: 25px;
+}
+.content-site-news.home .gran-titular h4{
+	font-size: 15px !important;
+}
+.content-site-news.home section h1{
+	font-size: 15px !important;
+	font-weight: 600;
+	line-height: 17px;
+	margin: 9px 0 !important;
+}
+.content-site-news.home .post-chico h1{
+	font-size: 15px !important;
+}

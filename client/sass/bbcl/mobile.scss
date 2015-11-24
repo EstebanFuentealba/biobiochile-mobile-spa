@@ -1,0 +1,228 @@
+body {
+  font-size: 100%;
+  background: #ffffff;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  position: relative;
+  cursor: auto;
+}
+.new-head {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #214583;
+  position: relative;
+  .menu-desplegable {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 320px;
+    height: auto;
+    background-color: #ffffff;
+    display: none;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    li {
+      padding: 0 !important;
+      margin: 0;
+      a {
+        font-size: 12px;
+        padding: 10px;
+        display: block;
+        .menu-marca {
+          display: inline-block;
+          border-left: 3px solid;
+          height: 10px;
+          margin-right: 5px;
+          &.sociedad {
+            border-color: RGB(160, 0, 167);
+          }
+          &.nacional {
+            border-color: RGB(0, 178, 255);
+          }
+          &.tecnologia {
+            border-color: RGB(0, 146, 126);
+          }
+          &.internacional {
+            border-color: RGB(83, 85, 255);
+          }
+          &.cultura {
+            border-color: RGB(255, 76, 0);
+          }
+          &.hombre {
+            border-color: RGB(60, 64, 188);
+          }
+          &.mujer {
+            border-color: RGB(249, 0, 91);
+          }
+          &.deporte {
+            border-color: RGB(231, 0, 0);
+          }
+          &.tv-cine {
+            border-color: RGB(255, 165, 0);
+          }
+          &.editorial {
+            border-color: RGB(160, 0, 167);
+          }
+          &.bbcltv {
+            border-color: RGB(0, 82, 161);
+          }
+          &.foto-ciudadana, &.tu-voz, &.medios-ciudadanos, &.break-time, &.nacional {
+            border-color: RGB(0, 178, 255);
+          }
+          &.blogs {
+            border-color: RGB(68, 128, 142);
+          }
+          &.frecuencias {
+            border-color: RGB(0, 178, 255);
+          }
+        }
+      }
+    }
+    &.buscador {
+      .triangulo {
+        right: 65px;
+      }
+      input {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+        width: 83.33333%;
+        float: left;
+        margin: 0;
+      }
+      button {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+        width: 16.66667%;
+        float: left;
+        padding: 0.6rem 0.9375rem;
+        margin: 0;
+        height: 37px;
+      }
+    }
+    .triangulo {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #ffffff;
+      position: absolute;
+      top: -10px;
+      right: 19px;
+    }
+    &.activo {
+      display: block !important;
+    }
+    ul {
+      display: block;
+      padding: 0;
+      margin: 0 -0.625rem;
+      margin: 0;
+      padding: 0;
+      z-index: 1000;
+      &:before {
+        content: " ";
+        display: table;
+      }
+      &:after {
+        content: " ";
+        display: table;
+        clear: both;
+      }
+      > li {
+        display: block;
+        height: auto;
+        float: left;
+        padding: 0 0.625rem 1.25rem;
+        width: 50%;
+        padding: 0 0.625rem 1.25rem;
+        list-style: none;
+        &:nth-of-type(1n) {
+          clear: none;
+        }
+        &:nth-of-type(2n+1) {
+          clear: both;
+        }
+      }
+    }
+  }
+  a.rbb-logo {
+    background-image: url(http://m.biobiochile.cl/assets/img/new_bbcl_logo.png);
+    width: 160px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .new-menu {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    float: right;
+    width: 37px;
+    height: 35px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 32px;
+    border: 1px dotted rgba(255, 255, 255, 0.3);
+    background-color: #17315a;
+    margin: 7px 10px;
+    &.search {
+      margin-right: 0;
+    }
+  }
+}
+
+.new-nav {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+  margin: 0;
+  text-align: center;
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  > li {
+    display: block;
+    height: auto;
+    float: left;
+    padding: 0 0.625rem 1.25rem;
+    width: 33.33333%;
+    padding: 0 0.625rem 1.25rem;
+    list-style: none;
+    &:nth-of-type(1n) {
+      clear: none;
+    }
+    &:nth-of-type(3n+1) {
+      clear: both;
+    }
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f8;
+    border-left: 1px solid #ffffff;
+    a {
+      padding: 10px;
+      font-size: 14px;
+      display: block;
+    }
+  }
+}
